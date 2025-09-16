@@ -194,7 +194,7 @@ export default function ContactPage() {
                   Send Us a Message
                 </h3>
                 <p className="text-gray-600 mb-8">
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </p>
 
                 {isSubmitted ? (

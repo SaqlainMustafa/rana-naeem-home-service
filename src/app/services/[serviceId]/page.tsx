@@ -50,7 +50,6 @@ export default function ServicePage({ params }: ServicePageProps) {
     notFound();
   }
 
-  const IconComponent = iconMap[service.icon];
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { Phone, Mail, ArrowRight } from 'lucide-react';
 import { contactInfo } from '@/data/services';
 
@@ -69,13 +70,13 @@ export default function HeroSection() {
                 <Phone size={20} />
                 <span>Call Now</span>
               </a>
-              <a 
+              <Link 
                 href="/services"
                 className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center space-x-2 backdrop-blur-sm"
               >
                 <span>Our Services</span>
                 <ArrowRight size={20} />
-              </a>
+              </Link>
             </div>
           </motion.div>
 

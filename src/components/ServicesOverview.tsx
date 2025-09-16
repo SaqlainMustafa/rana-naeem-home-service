@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { services } from '@/data/services';
 
@@ -71,9 +72,11 @@ export default function ServicesOverview() {
                   <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2 h-full overflow-hidden">
                     {/* Service Image */}
                     <div className="relative h-48 overflow-hidden">
-                      <img
+                      <Image
                         src={service.image || '/api/placeholder/400/300'}
                         alt={service.name}
+                        width={400}
+                        height={300}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>

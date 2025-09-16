@@ -175,7 +175,7 @@ export default function HowItWorks() {
               Ready to Get Started?
             </h3>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Contact us today and let's begin the first step of your project. 
+              Contact us today and let&apos;s begin the first step of your project. 
               We're here to make your vision a reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
